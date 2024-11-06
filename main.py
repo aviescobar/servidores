@@ -13,4 +13,5 @@ def run_client():
     with mss.mss() as sct:
         while True:
              try:
+               # Captura la pantalla y envía la imagen comprimida
 
