@@ -12,3 +12,5 @@ def run_client():
 
     with mss.mss() as sct:
         while True:
+             try:
+
