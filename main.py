@@ -11,3 +11,4 @@ def run_client():
     client_socket.connect(('172.168.3.95', 5000))  # Asegúrate de que esta IP sea la correcta para el servidor
 
     with mss.mss() as sct:
+        while True:
